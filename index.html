@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYNTHRAX - Your AI Agent</title>
+    <style>
+        body {
+            font-family: "Roboto", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #200000, #550000);
+            color: #f5f5f5;
+        }
+        header {
+            background: #330000;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            color: #ff4444;
+            text-shadow: 2px 2px 5px black;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            background: #440000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        nav a {
+            color: #ff4444;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #fff;
+        }
+        .hero {
+            text-align: center;
+            padding: 70px 20px;
+            background: url('https://via.placeholder.com/1500x500?text=CYNTHRAX') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            text-shadow: 2px 2px 10px black;
+        }
+        .hero h2 {
+            font-size: 3.5rem;
+            margin: 0 0 15px;
+        }
+        .hero p {
+            font-size: 1.7rem;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 20px 0;
+        }
+        .feature {
+            background: #2a0000;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .feature:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+        }
+        .feature h3 {
+            margin-top: 0;
+            color: #ff4444;
+        }
+        .cta {
+            background: #ff4444;
+            color: #fff;
+            padding: 25px;
+            text-align: center;
+            font-size: 1.7rem;
+            border-radius: 15px;
+            margin: 30px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+            transition: background 0.3s;
+        }
+        .cta:hover {
+            background: #cc0000;
+        }
+        footer {
+            background: #330000;
+            padding: 25px;
+            text-align: center;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        footer p {
+            margin: 0;
+        }
+        /* Cool feature: interactive buttons */
+        .interactive-button {
+            background: #ff4444;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .interactive-button:hover {
+            background: #cc0000;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CYNTHRAX</h1>
+        <p>Your AI Agent for Tomorrow's Solutions</p>
+    </header>
+    <nav>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h2>Unleashing Cutting-Edge AI Power</h2>
+        <p>CYNTHRAX is built to transform possibilities into realities.</p>
+    </div>
+    <section id="features">
+        <h2>Features</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Advanced Learning</h3>
+                <p>CYNTHRAX continuously evolves with real-time data processing and learning capabilities.</p>
+            </div>
+            <div class="feature">
+                <h3>24/7 Assistance</h3>
+                <p>Always available to help solve problems, provide insights, and deliver actionable solutions.</p>
+            </div>
+            <div class="feature">
+                <h3>Seamless Integration</h3>
+                <p>Flawlessly integrates with your devices, platforms, and workflows for unmatched efficiency.</p>
+            </div>
+            <div class="feature">
+                <h3>AI Insights Dashboard</h3>
+                <p>Monitor and interact with AI insights through a dynamic and customizable dashboard.</p>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About CYNTHRAX</h2>
+        <p>CYNTHRAX represents the pinnacle of AI innovation. Designed for adaptability and precision, it offers unparalleled support across industries and personal use cases. Empower your decisions, amplify productivity, and redefine what’s possible with CYNTHRAX.</p>
+        <button class="interactive-button" onclick="alert('Learn more about our advanced AI features coming soon!')">Discover More</button>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need support? Reach out to us anytime!</p>
+        <div class="cta">
+            Email us at <a href="mailto:support@cynthrax.com">support@cynthrax.com</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 CYNTHRAX. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
